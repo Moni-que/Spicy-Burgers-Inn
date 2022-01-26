@@ -10,5 +10,10 @@
     color: black;
     text-align: center;
     width: 25%;
+    justify-content: right;
 }
- 
+
+    .image-1{
+        float: right;
+        height: 5px;
+    }
