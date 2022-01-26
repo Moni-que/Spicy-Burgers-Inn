@@ -1,19 +1,22 @@
-.navbar {
-    background-color: white;
-    overflow: hidden;
+.monica{
+    background-color: yellow;
+    padding-bottom: 2000px;
 }
 .navbar a{
-    text-decoration: none;
-    font-size: 20px;
-    float: right;
-    padding: 20px;
-    color: black;
-    text-align: center;
-    width: 25%;
-    justify-content: right;
+    float:right;
+    width: 100px;
 }
+#image-1{
+    float: right;
+    position: relative;
+    width: 700px;
 
-    .image-1{
-        float: right;
-        height: 5px;
     }
+    .delicacies{
+        background-color: skyblue;
+
+    }
+   div.delicacies{
+       display: flex;
+       justify-content: right;
+   } 
