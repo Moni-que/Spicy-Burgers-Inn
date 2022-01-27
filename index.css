@@ -1,70 +1,103 @@
-.monica{
+.monica {
     background-color: yellow;
     padding-bottom: 2000px;
 }
-.navbar a{
-    float:right;
+
+.navbar a {
+    float: right;
     width: 100px;
 }
-#image-1{
+
+#image-1 {
     float: right;
     position: relative;
     width: 700px;
 
-    }
-    .delicacies{
-        background-color: skyblue;
-        padding-bottom: 100px;
+}
 
-    }
-    .delicacies{
-       flex-direction: row;
-       display: flex;
-       justify-content: right;
-       
-   } 
-   .quality{
-       font-color:black;
-   }
-   .one{
-       border: 10px solid grey;
-       width: fit-content;
-       height: 110px;
-       margin-left: 1em;
-       padding-bottom: 40px;
+.delicacies {
+    background-color: skyblue;
+    padding-bottom: 100px;
+
+}
+
+.delicacies {
+    flex-direction: row;
+    display: flex;
+    justify-content: right;
+
+}
+
+.quality {
+    font-color: black;
+}
+
+.one {
+    border: 10px solid grey;
+    width: fit-content;
+    height: 110px;
+    margin-left: 1em;
+    padding-bottom: 40px;
+
+}
+
+.three {
+    border: 10px solid grey;
+    width: fit-content;
+    height: 110px;
+    margin-right: 1em;
+    margin-left: 1em;
+    padding-bottom: 40px;
+}
+
+.two {
+    border: 10px solid grey;
+    width: fit-content;
+    padding: 5px;
+    margin-left: 1em;
+}
+
+.menu {
+      margin: auto;
+      width: 50%;
+      padding: 10px;
+      display: flex;
+  }
+
       
-   }
-   .three{
-       border: 10px solid grey;
-       width: fit-content;
-       height: 110px;
-       margin-right: 1em;
-       margin-left: 1em;
-       padding-bottom: 40px;
-   }
-   .two{
-       border: 10px solid grey;
-       width: fit-content;
-       padding: 5px;
-       margin-left: 1em;
-   }
-   .menu{
-       margin:auto;
-       width:50%;
-       padding:10px;
-   }
-   .column{
-       width:33.3%;
-       float:right;
-   }
-   .row{
-       width: 33.3%;
-       float: right;
-   }
-   .row:after {
-    content: "";
-    display: table;
-    clear: both;
+
+.column {
+    width: 33.3%;
+    float: right;
+}
+
+.row {
+    width: 33.3%;
+    float: right;
+}
+
+.part 1 .column {
+    width: 100% height:auto;
+}
+.Double {
+    width:50%;
+    float: right;
+}
+div.Decker{
+    background-color: cadetblue;
+}
+.button1{
+    color: orange;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    }
 
 
-   
