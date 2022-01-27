@@ -25,5 +25,10 @@
    .quality{
        font-color:black;
    }
+   .one{
+       border: 10px black;
+       width: 300px;
+       height: 110px;
+   }
 
    
