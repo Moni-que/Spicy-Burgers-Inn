@@ -17,9 +17,9 @@
         padding-bottom: 100px;
 
     }
-   div.delicacies{
+    .delicacies{
        flex-direction: row;
-   
+       display: flex;
        justify-content: right;
    } 
 
