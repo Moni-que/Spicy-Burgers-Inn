@@ -21,19 +21,28 @@
        flex-direction: row;
        display: flex;
        justify-content: right;
+       
    } 
    .quality{
        font-color:black;
    }
    .one{
        border: 10px black;
-       width: 300px;
+       width: fit-content;
        height: 110px;
+       margin-left: 1em;
    }
    .three{
-       border: 10px 5px;
-       width: 300px;
+       border: 10px black;
+       width: fit-content;
        height: 110px;
+       margin-right: 1em;
+   }
+   .two{
+       border: 10px black;
+       width: fit-content;
+       padding: 5px;
+       margin-left: 1em;
    }
 
    
