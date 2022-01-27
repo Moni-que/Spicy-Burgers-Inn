@@ -14,13 +14,13 @@
     }
     .delicacies{
         background-color: skyblue;
+        padding-bottom: 100px;
 
     }
    div.delicacies{
-       display: flex;
+       flex-direction: row;
+   
        justify-content: right;
    } 
-   div.shine{
-       background-color: yellow;
-   }
+
    
