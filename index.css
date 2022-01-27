@@ -38,6 +38,7 @@
        width: fit-content;
        height: 110px;
        margin-right: 1em;
+       margin-left: 1em;
    }
    .two{
        border: 10px solid grey;
