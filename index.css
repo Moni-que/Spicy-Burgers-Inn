@@ -27,19 +27,20 @@
        font-color:black;
    }
    .one{
-       border: 10px black;
+       border: 10px solid grey;
        width: fit-content;
        height: 110px;
        margin-left: 1em;
+      
    }
    .three{
-       border: 10px black;
+       border: 10px solid grey;
        width: fit-content;
        height: 110px;
        margin-right: 1em;
    }
    .two{
-       border: 10px black;
+       border: 10px solid grey;
        width: fit-content;
        padding: 5px;
        margin-left: 1em;
