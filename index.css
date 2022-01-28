@@ -1,68 +1,46 @@
-.monica {
-    background-color: yellow;
-    padding-bottom: 2000px;
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
 }
-
-.navbar a {
-    float: right;
-    width: 100px;
+.monica {
+    height: 100vh;
+    background: linear-gradient(100deg, transparent 50%, orange 50%);
+}
+.navbar ul li a {
+    float:right;
+    width: 300px;
+    display: inline;
+    margin-left: 2px;
+    padding: 20px;
 }
 
 #image-1 {
     float: right;
     position: relative;
-    width: 700px;
+    width: 900px;
 
 }
 
 .delicacies {
-    background-color: skyblue;
+    background-color: none;
     padding-bottom: 100px;
-
-}
-
-.delicacies {
     flex-direction: row;
     display: flex;
     justify-content: right;
+    padding-top: 100px;
+    width: 100%;
 
 }
 
 .quality {
     font-color: black;
+    justify-content: space-between; 
+    margin: 10px;
 }
 
-.one {
-    border: 10px solid grey;
-    width: fit-content;
-    height: 110px;
-    margin-left: 1em;
-    padding-bottom: 40px;
 
-}
 
-.three {
-    border: 10px solid grey;
-    width: fit-content;
-    height: 110px;
-    margin-right: 1em;
-    margin-left: 1em;
-    padding-bottom: 40px;
-}
-
-.two {
-    border: 10px solid grey;
-    width: fit-content;
-    padding: 5px;
-    margin-left: 1em;
-}
-
-.menu {
-      margin: auto;
-      width: 50%;
-      padding: 10px;
-      display: flex;
-  }
 
       
 
@@ -83,8 +61,6 @@
     width:50%;
     float: right;
 }
-div.Decker{
-    background-color: cadetblue;
 }
 .button1{
     color: orange;
@@ -98,6 +74,23 @@ div.Decker{
     margin: 4px 2px;
     transition-duration: 0.4s;
     cursor: pointer;
+    }
+    .one{
+        width: auto;
+        padding: 50px;
+        border: solid brown;
+        border-radius: 10px;
+        
+    }
+    .two{width: auto;
+        padding: 100px;
+        border: solid brown;
+        border-radius: 10px;
+
+    }
+    .pics{
+        background-color: lightblue;
+        height: 800px;
     }
 
 
