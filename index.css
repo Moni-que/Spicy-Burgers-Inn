@@ -7,20 +7,14 @@
     height: 100vh;
     background: linear-gradient(100deg, transparent 50%, orange 50%);
 }
-.navbar ul li a {
-    float:right;
-    width: 300px;
-    display: inline;
-    margin-left: 2px;
-    padding: 20px;
-    margin: 0px 20px;
-    list-style: none;
-}
+
 
 #image-1 {
     float: right;
     position: relative;
     width: 900px;
+    padding-top: 50px;
+    padding-left: 400px;
 
 }
 
@@ -235,6 +229,32 @@
              float: right;
              padding-right: 200px;
          }
+
+            ul{
+                width: auto;
+                float: right;
+                margin-top: 5px;
+            }
+            li{
+                display: inline-block;
+                padding: 3px 6px;
+            }
+            a{
+                text-align: center;
+                color: black;
+                text-decoration: none;
+                font-size: x-large;
+            }
+            a:hover{
+                color: yellow;
+
+            }
+            .logoplace{
+                padding-left: 50px;
+                padding-top: 50px;
+            }
+
+
 
 
 
