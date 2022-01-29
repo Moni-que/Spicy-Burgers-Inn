@@ -65,9 +65,6 @@
     float: right;
     text-align: right;
 }
- .button1{
-
-    }
     .one{
         width: auto;
         padding: 50px;
@@ -110,9 +107,9 @@
     }
 
     .last{
-        background-color: darkorange;
-        padding-bottom: 600px;
-        padding-top: 200px;
+        background-color: orange;
+        padding-bottom: 400px;
+        padding-top: 100px;
     }
     .last h2{
         font-weight: bold;
@@ -124,15 +121,6 @@
         display: flex;
         width: auto;
     }
-
-    .footer{
-        float: right;
-        text-align: center;
-    }
-
-
-
-
 
     #taste{
         float: right;
@@ -158,6 +146,42 @@
         .sources{
             float: right;
             padding-right: 300px;
+        }
+        #footer{
+            background-color: powderblue;
+        }
+        .sitemap{
+            display: flex block;
+            text-align: center;
+            padding: 0px;
+            margin: 0px;
+            font-size: x-large;
+
+
+        }
+        .subscribe{
+            display: flex block;
+            text-align: right;
+            padding-bottom: 200px;
+            padding-right: 100px;
+        }
+        .subscribe h3{
+            font-size: xx-large;
+            padding-bottom: 50px;
+        }
+        .subscribe p{
+            font-size: x-large;
+         
+            padding-left: 50px;
+            width: auto;
+            padding: 50px;
+            padding-right: 100px;
+
+        }
+        .last h2{
+            font-size: xx-large;
+            padding-left: 70px;
+            padding-top: 100px;
         }
 
 
