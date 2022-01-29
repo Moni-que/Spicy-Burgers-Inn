@@ -121,12 +121,18 @@
         .fas{
             color: black;
         }
-        #menu{
+
+        #Menu{
             font-size: xx-large;
-            font-weight: bold;
             width: auto;
             text-align: center;
+            padding-bottom: 50px;
         }
+        
+
+
+
+    
         .sources{
             float: right;
             padding-right: 300px;
