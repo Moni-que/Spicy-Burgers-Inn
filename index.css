@@ -167,7 +167,7 @@
         }
         .subscribe h3{
             font-size: xx-large;
-            padding-bottom: 50px;
+            padding-bottom: 60px;
         }
         .subscribe p{
             font-size: x-large;
@@ -183,5 +183,23 @@
             padding-left: 70px;
             padding-top: 100px;
         }
+
+
+
+         #secondpara{
+            display: inline;
+            text-align: right;           
+            padding-right: 100px;
+            padding-bottom: 10px;
+            width: auto;
+            float: right;
+         }
+         #socialmedia{
+             text-align: center;
+             display: inline;
+             width: auto;
+             padding-left: 900px;
+         }
+
 
 
