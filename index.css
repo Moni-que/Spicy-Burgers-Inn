@@ -40,11 +40,6 @@
     margin: 10px;
 }
 
-
-
-
-      
-
 .column {
     width: 33.3%;
     float: right;
@@ -97,24 +92,13 @@
         padding-bottom: 600px;
         background-color: paleturquoise;
     }
-    .header{
-        padding-bottom: 100px;
-        margin-bottom: 200px;
-    }
-    .paragraph{
-        padding-bottom: 20px;
-        font-size: 50px;
-    }
 
     .last{
         background-color: orange;
         padding-bottom: 400px;
-        padding-top: 100px;
+        padding-top: 10px;
     }
-    .last h2{
-        font-weight: bold;
-        font-size: xx-large;
-    }
+
     .lasty{
         float: right;
         flex-direction: row;
@@ -153,7 +137,7 @@
         .sitemap{
             display: flex block;
             text-align: center;
-            padding: 0px;
+            padding-top: 0px;
             margin: 0px;
             font-size: x-large;
 
@@ -162,30 +146,32 @@
         .subscribe{
             display: flex block;
             text-align: right;
-            padding-bottom: 200px;
+            padding-bottom: 50px;
             padding-right: 100px;
         }
         .subscribe h3{
             font-size: xx-large;
             padding-bottom: 60px;
+            padding-top: 0px;
         }
         .subscribe p{
             font-size: x-large;
-         
             padding-left: 50px;
             width: auto;
             padding: 50px;
             padding-right: 100px;
 
+
         }
         .last h2{
             font-size: xx-large;
-            padding-left: 70px;
+            padding-left: 200px;
             padding-top: 100px;
+            font-weight: bold;
+            font-size: xx-large;
         }
 
-
-
+        
          #secondpara{
             display: inline;
             text-align: right;           
@@ -199,6 +185,45 @@
              display: inline;
              width: auto;
              padding-left: 900px;
+         }
+         .burgerlogo{
+             padding-top: 100px;
+             padding-left: 100px;
+         }
+         .googleapple{
+             position: relative;
+             float: left;
+             width: auto;
+             padding-right: 500px;
+             padding-top: 200px;
+             }
+         .todayspecial{
+             padding-right: 200px;
+         }    
+         .thecompany{
+             padding-right: 100px;
+         }
+
+         .shine h1{
+             padding-bottom: 100px;
+             padding-left: 100px;
+             padding-top: 100px;
+             padding-right: 1400px;
+             font-size: 50px;
+         }
+         .shine p{
+             font-size: x-large;
+             padding-left: 100px;
+             padding-right: 1300px;
+             padding-bottom: 300px;
+         }
+         .button{
+             background-color: orange;
+             padding: 15px 32px;
+             font-size: large;
+             float: right;
+             border: none;
+
          }
 
 
